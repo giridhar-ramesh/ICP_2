@@ -1,0 +1,180 @@
+# Randomize 'data'
+#  35
+#  50
+#  10
+#  29
+# 184
+# 218
+# 192
+# 172
+#  50
+#  28
+# 190
+# 253
+# 216
+#  73
+#  81
+# 211
+# 
+# Randomize 'my_state'
+# START
+# S4
+# START
+# START
+# S5
+# S2
+# S5
+# S4
+# S3
+# S5
+# INIT
+# S3
+# S2
+# START
+# START
+# S4
+# 
+# Randomize 'data' with constraints
+#  23
+#  51
+#  25
+#  76
+#  93
+#  81
+#  47
+#  78
+#  55
+#  72
+# 108
+# 100
+#  38
+#  68
+#  51
+#  79
+# 
+# Randomize 'my_state' with constraints
+# S6
+# S1
+# INIT
+# INIT
+# S1
+# START
+# S1
+# START
+# S1
+# S1
+# S1
+# S1
+# INIT
+# S6
+# INIT
+# S6
+# 
+# Randomize 'my_state' with dist constraints
+# INIT
+# INIT
+# S1
+# INIT
+# S6
+# S1
+# START
+# S1
+# S5
+# S1
+# START
+# INIT
+# S4
+# START
+# S1
+# INIT
+# 
+# Randomize 'data' with conditional constraints
+# 194
+# 132
+# 185
+# 197
+# 105
+# 245
+# 177
+# 151
+# 177
+# 107
+# 178
+# 106
+# 138
+# 215
+# 101
+# 240
+# 
+# Randomize 'data' with conditional constraints
+#  11
+#  12
+#  28
+#   5
+#  40
+#  32
+#  23
+#  42
+#  41
+#   1
+#  30
+#   4
+#  12
+#  29
+#  35
+#  46
+# 
+# Task 1 : Randomize 'my_state' without start
+# S2
+# S3
+# S1
+# S3
+# S2
+# S4
+# S4
+# INIT
+# S2
+# S4
+# S5
+# S1
+# S6
+# S2
+# S4
+# INIT
+# 
+# Task 2 : Randomize 'data' with constraints
+#   0
+#   7
+# 216
+#   2
+#   6
+#   2
+#   1
+#   4
+#   7
+#   7
+# 211
+#  10
+# 206
+#   9
+# 210
+#   9
+# 
+# Task 3 : Randomize 'data' and state with conditional constraints
+# my_state=S1 data=60
+# my_state=S4 data=126
+# my_state=S4 data=136
+# my_state=S4 data=114
+# my_state=S5 data=144
+# my_state=START data=10
+# my_state=S2 data=60
+# my_state=S5 data=146
+# my_state=S3 data=146
+# my_state=S1 data=53
+# my_state=S5 data=102
+# my_state=INIT data=18
+# my_state=START data=8
+# my_state=S3 data=138
+# my_state=S3 data=126
+# my_state=S1 data=112
+# 

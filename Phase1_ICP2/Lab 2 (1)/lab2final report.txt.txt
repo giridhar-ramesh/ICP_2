@@ -1,0 +1,373 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /simple_alu_tb
+=== Design Unit: work.simple_alu_tb
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    80.00%
+        Coverpoints/Crosses          8        na        na        na
+            Covergroup Bins         97        57        40    58.76%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /simple_alu_tb/basic_fcov                        80.00%        100          -    Uncovered            
+    covered/total bins:                                    57         97          -                      
+    missing/total bins:                                    40         97          -                      
+    % Hit:                                             58.76%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint op                                     100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint a                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint b                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint c                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross x_op_a                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+    Cross x_op_b                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+    Cross x_op_c                                       36.00%        100          -    Uncovered            
+        covered/total bins:                                 9         25          -                      
+        missing/total bins:                                16         25          -                      
+        % Hit:                                         36.00%        100          -                      
+ Covergroup instance \/simple_alu_tb/coverage_instance  
+                                                       80.00%        100          -    Uncovered            
+    covered/total bins:                                    57         97          -                      
+    missing/total bins:                                    40         97          -                      
+    % Hit:                                             58.76%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset                                           3          1          -    Covered              
+        bin run                                            38          1          -    Covered              
+    Coverpoint op                                     100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin add                                            29          1          -    Covered              
+        bin sub                                             5          1          -    Covered              
+        bin mul                                             2          1          -    Covered              
+        bin div                                             2          1          -    Covered              
+        bin mod                                             1          1          -    Covered              
+    Coverpoint a                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           29          1          -    Covered              
+        bin max                                             2          1          -    Covered              
+        bin low                                             2          1          -    Covered              
+        bin mid                                             5          1          -    Covered              
+        bin high                                            3          1          -    Covered              
+    Coverpoint b                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           28          1          -    Covered              
+        bin max                                             2          1          -    Covered              
+        bin low                                             2          1          -    Covered              
+        bin mid                                             4          1          -    Covered              
+        bin high                                            5          1          -    Covered              
+    Coverpoint c                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           27          1          -    Covered              
+        bin max                                             1          1          -    Covered              
+        bin low                                             4          1          -    Covered              
+        bin mid                                             5          1          -    Covered              
+        bin high                                            3          1          -    Covered              
+    Cross x_op_a                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <div,high>                                  1          1          -    Covered              
+            bin <mul,high>                                  1          1          -    Covered              
+            bin <sub,high>                                  1          1          -    Covered              
+            bin <mod,mid>                                   1          1          -    Covered              
+            bin <div,mid>                                   1          1          -    Covered              
+            bin <sub,mid>                                   2          1          -    Covered              
+            bin <add,mid>                                   1          1          -    Covered              
+            bin <sub,low>                                   1          1          -    Covered              
+            bin <add,low>                                   1          1          -    Covered              
+            bin <sub,max>                                   1          1          -    Covered              
+            bin <add,max>                                   1          1          -    Covered              
+            bin <mul,zero>                                  1          1          -    Covered              
+            bin <add,zero>                                 26          1          -    Covered              
+            bin <mod,high>                                  0          1          1    ZERO                 
+            bin <add,high>                                  0          1          1    ZERO                 
+            bin <mul,mid>                                   0          1          1    ZERO                 
+            bin <mod,low>                                   0          1          1    ZERO                 
+            bin <div,low>                                   0          1          1    ZERO                 
+            bin <mul,low>                                   0          1          1    ZERO                 
+            bin <mod,max>                                   0          1          1    ZERO                 
+            bin <div,max>                                   0          1          1    ZERO                 
+            bin <mul,max>                                   0          1          1    ZERO                 
+            bin <mod,zero>                                  0          1          1    ZERO                 
+            bin <div,zero>                                  0          1          1    ZERO                 
+            bin <sub,zero>                                  0          1          1    ZERO                 
+    Cross x_op_b                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <mul,high>                                  1          1          -    Covered              
+            bin <sub,high>                                  3          1          -    Covered              
+            bin <add,high>                                  1          1          -    Covered              
+            bin <mod,mid>                                   1          1          -    Covered              
+            bin <div,mid>                                   1          1          -    Covered              
+            bin <sub,mid>                                   1          1          -    Covered              
+            bin <add,mid>                                   1          1          -    Covered              
+            bin <div,low>                                   1          1          -    Covered              
+            bin <add,low>                                   1          1          -    Covered              
+            bin <mul,max>                                   1          1          -    Covered              
+            bin <add,max>                                   1          1          -    Covered              
+            bin <sub,zero>                                  1          1          -    Covered              
+            bin <add,zero>                                 25          1          -    Covered              
+            bin <mod,high>                                  0          1          1    ZERO                 
+            bin <div,high>                                  0          1          1    ZERO                 
+            bin <mul,mid>                                   0          1          1    ZERO                 
+            bin <mod,low>                                   0          1          1    ZERO                 
+            bin <mul,low>                                   0          1          1    ZERO                 
+            bin <sub,low>                                   0          1          1    ZERO                 
+            bin <mod,max>                                   0          1          1    ZERO                 
+            bin <div,max>                                   0          1          1    ZERO                 
+            bin <sub,max>                                   0          1          1    ZERO                 
+            bin <mod,zero>                                  0          1          1    ZERO                 
+            bin <div,zero>                                  0          1          1    ZERO                 
+            bin <mul,zero>                                  0          1          1    ZERO                 
+    Cross x_op_c                                       36.00%        100          -    Uncovered            
+        covered/total bins:                                 9         25          -                      
+        missing/total bins:                                16         25          -                      
+        % Hit:                                         36.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <add,high>                                  3          1          -    Covered              
+            bin <add,mid>                                   5          1          -    Covered              
+            bin <add,low>                                   4          1          -    Covered              
+            bin <add,max>                                   1          1          -    Covered              
+            bin <mod,zero>                                  1          1          -    Covered              
+            bin <div,zero>                                  2          1          -    Covered              
+            bin <mul,zero>                                  2          1          -    Covered              
+            bin <sub,zero>                                  5          1          -    Covered              
+            bin <add,zero>                                 15          1          -    Covered              
+            bin <mod,high>                                  0          1          1    ZERO                 
+            bin <div,high>                                  0          1          1    ZERO                 
+            bin <mul,high>                                  0          1          1    ZERO                 
+            bin <sub,high>                                  0          1          1    ZERO                 
+            bin <mod,mid>                                   0          1          1    ZERO                 
+            bin <div,mid>                                   0          1          1    ZERO                 
+            bin <mul,mid>                                   0          1          1    ZERO                 
+            bin <sub,mid>                                   0          1          1    ZERO                 
+            bin <mod,low>                                   0          1          1    ZERO                 
+            bin <div,low>                                   0          1          1    ZERO                 
+            bin <mul,low>                                   0          1          1    ZERO                 
+            bin <sub,low>                                   0          1          1    ZERO                 
+            bin <mod,max>                                   0          1          1    ZERO                 
+            bin <div,max>                                   0          1          1    ZERO                 
+            bin <mul,max>                                   0          1          1    ZERO                 
+            bin <sub,max>                                   0          1          1    ZERO                 
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /simple_alu_tb/basic_fcov                        80.00%        100          -    Uncovered            
+    covered/total bins:                                    57         97          -                      
+    missing/total bins:                                    40         97          -                      
+    % Hit:                                             58.76%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint op                                     100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint a                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint b                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint c                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross x_op_a                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+    Cross x_op_b                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+    Cross x_op_c                                       36.00%        100          -    Uncovered            
+        covered/total bins:                                 9         25          -                      
+        missing/total bins:                                16         25          -                      
+        % Hit:                                         36.00%        100          -                      
+ Covergroup instance \/simple_alu_tb/coverage_instance  
+                                                       80.00%        100          -    Uncovered            
+    covered/total bins:                                    57         97          -                      
+    missing/total bins:                                    40         97          -                      
+    % Hit:                                             58.76%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset                                           3          1          -    Covered              
+        bin run                                            38          1          -    Covered              
+    Coverpoint op                                     100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin add                                            29          1          -    Covered              
+        bin sub                                             5          1          -    Covered              
+        bin mul                                             2          1          -    Covered              
+        bin div                                             2          1          -    Covered              
+        bin mod                                             1          1          -    Covered              
+    Coverpoint a                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           29          1          -    Covered              
+        bin max                                             2          1          -    Covered              
+        bin low                                             2          1          -    Covered              
+        bin mid                                             5          1          -    Covered              
+        bin high                                            3          1          -    Covered              
+    Coverpoint b                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           28          1          -    Covered              
+        bin max                                             2          1          -    Covered              
+        bin low                                             2          1          -    Covered              
+        bin mid                                             4          1          -    Covered              
+        bin high                                            5          1          -    Covered              
+    Coverpoint c                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           27          1          -    Covered              
+        bin max                                             1          1          -    Covered              
+        bin low                                             4          1          -    Covered              
+        bin mid                                             5          1          -    Covered              
+        bin high                                            3          1          -    Covered              
+    Cross x_op_a                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <div,high>                                  1          1          -    Covered              
+            bin <mul,high>                                  1          1          -    Covered              
+            bin <sub,high>                                  1          1          -    Covered              
+            bin <mod,mid>                                   1          1          -    Covered              
+            bin <div,mid>                                   1          1          -    Covered              
+            bin <sub,mid>                                   2          1          -    Covered              
+            bin <add,mid>                                   1          1          -    Covered              
+            bin <sub,low>                                   1          1          -    Covered              
+            bin <add,low>                                   1          1          -    Covered              
+            bin <sub,max>                                   1          1          -    Covered              
+            bin <add,max>                                   1          1          -    Covered              
+            bin <mul,zero>                                  1          1          -    Covered              
+            bin <add,zero>                                 26          1          -    Covered              
+            bin <mod,high>                                  0          1          1    ZERO                 
+            bin <add,high>                                  0          1          1    ZERO                 
+            bin <mul,mid>                                   0          1          1    ZERO                 
+            bin <mod,low>                                   0          1          1    ZERO                 
+            bin <div,low>                                   0          1          1    ZERO                 
+            bin <mul,low>                                   0          1          1    ZERO                 
+            bin <mod,max>                                   0          1          1    ZERO                 
+            bin <div,max>                                   0          1          1    ZERO                 
+            bin <mul,max>                                   0          1          1    ZERO                 
+            bin <mod,zero>                                  0          1          1    ZERO                 
+            bin <div,zero>                                  0          1          1    ZERO                 
+            bin <sub,zero>                                  0          1          1    ZERO                 
+    Cross x_op_b                                       52.00%        100          -    Uncovered            
+        covered/total bins:                                13         25          -                      
+        missing/total bins:                                12         25          -                      
+        % Hit:                                         52.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <mul,high>                                  1          1          -    Covered              
+            bin <sub,high>                                  3          1          -    Covered              
+            bin <add,high>                                  1          1          -    Covered              
+            bin <mod,mid>                                   1          1          -    Covered              
+            bin <div,mid>                                   1          1          -    Covered              
+            bin <sub,mid>                                   1          1          -    Covered              
+            bin <add,mid>                                   1          1          -    Covered              
+            bin <div,low>                                   1          1          -    Covered              
+            bin <add,low>                                   1          1          -    Covered              
+            bin <mul,max>                                   1          1          -    Covered              
+            bin <add,max>                                   1          1          -    Covered              
+            bin <sub,zero>                                  1          1          -    Covered              
+            bin <add,zero>                                 25          1          -    Covered              
+            bin <mod,high>                                  0          1          1    ZERO                 
+            bin <div,high>                                  0          1          1    ZERO                 
+            bin <mul,mid>                                   0          1          1    ZERO                 
+            bin <mod,low>                                   0          1          1    ZERO                 
+            bin <mul,low>                                   0          1          1    ZERO                 
+            bin <sub,low>                                   0          1          1    ZERO                 
+            bin <mod,max>                                   0          1          1    ZERO                 
+            bin <div,max>                                   0          1          1    ZERO                 
+            bin <sub,max>                                   0          1          1    ZERO                 
+            bin <mod,zero>                                  0          1          1    ZERO                 
+            bin <div,zero>                                  0          1          1    ZERO                 
+            bin <mul,zero>                                  0          1          1    ZERO                 
+    Cross x_op_c                                       36.00%        100          -    Uncovered            
+        covered/total bins:                                 9         25          -                      
+        missing/total bins:                                16         25          -                      
+        % Hit:                                         36.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <add,high>                                  3          1          -    Covered              
+            bin <add,mid>                                   5          1          -    Covered              
+            bin <add,low>                                   4          1          -    Covered              
+            bin <add,max>                                   1          1          -    Covered              
+            bin <mod,zero>                                  1          1          -    Covered              
+            bin <div,zero>                                  2          1          -    Covered              
+            bin <mul,zero>                                  2          1          -    Covered              
+            bin <sub,zero>                                  5          1          -    Covered              
+            bin <add,zero>                                 15          1          -    Covered              
+            bin <mod,high>                                  0          1          1    ZERO                 
+            bin <div,high>                                  0          1          1    ZERO                 
+            bin <mul,high>                                  0          1          1    ZERO                 
+            bin <sub,high>                                  0          1          1    ZERO                 
+            bin <mod,mid>                                   0          1          1    ZERO                 
+            bin <div,mid>                                   0          1          1    ZERO                 
+            bin <mul,mid>                                   0          1          1    ZERO                 
+            bin <sub,mid>                                   0          1          1    ZERO                 
+            bin <mod,low>                                   0          1          1    ZERO                 
+            bin <div,low>                                   0          1          1    ZERO                 
+            bin <mul,low>                                   0          1          1    ZERO                 
+            bin <sub,low>                                   0          1          1    ZERO                 
+            bin <mod,max>                                   0          1          1    ZERO                 
+            bin <div,max>                                   0          1          1    ZERO                 
+            bin <mul,max>                                   0          1          1    ZERO                 
+            bin <sub,max>                                   0          1          1    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 80.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 80.00%
+
+

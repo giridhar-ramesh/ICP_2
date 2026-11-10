@@ -1,0 +1,91 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /simple_alu_tb
+=== Design Unit: work.simple_alu_tb
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    90.00%
+        Coverpoints/Crosses          2        na        na        na
+            Covergroup Bins          7         6         1    85.71%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /simple_alu_tb/basic_fcov                        90.00%        100          -    Uncovered            
+    covered/total bins:                                     6          7          -                      
+    missing/total bins:                                     1          7          -                      
+    % Hit:                                             85.71%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint op                                      80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+ Covergroup instance \/simple_alu_tb/coverage_instance  
+                                                       90.00%        100          -    Uncovered            
+    covered/total bins:                                     6          7          -                      
+    missing/total bins:                                     1          7          -                      
+    % Hit:                                             85.71%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset                                           3          1          -    Covered              
+        bin run                                            20          1          -    Covered              
+    Coverpoint op                                      80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+        bin add                                             2          1          -    Covered              
+        bin sub                                            15          1          -    Covered              
+        bin mul                                             2          1          -    Covered              
+        bin div                                             2          1          -    Covered              
+        bin mod                                             0          1          -    ZERO                 
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /simple_alu_tb/basic_fcov                        90.00%        100          -    Uncovered            
+    covered/total bins:                                     6          7          -                      
+    missing/total bins:                                     1          7          -                      
+    % Hit:                                             85.71%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint op                                      80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+ Covergroup instance \/simple_alu_tb/coverage_instance  
+                                                       90.00%        100          -    Uncovered            
+    covered/total bins:                                     6          7          -                      
+    missing/total bins:                                     1          7          -                      
+    % Hit:                                             85.71%        100          -                      
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset                                           3          1          -    Covered              
+        bin run                                            20          1          -    Covered              
+    Coverpoint op                                      80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+        bin add                                             2          1          -    Covered              
+        bin sub                                            15          1          -    Covered              
+        bin mul                                             2          1          -    Covered              
+        bin div                                             2          1          -    Covered              
+        bin mod                                             0          1          -    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 90.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 90.00%
+
+

@@ -1,0 +1,85 @@
+# Compile of lab_03.sv was successful.
+# Compile of lab_03.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_03(fast)
+run
+# 
+# Test 1
+# Main - thread @ line 8 @ time 10
+# Main - thread @ line 9 @ time 30
+# Fork - thread 2 @ line 13 @ time 40
+# Fork - thread 1 @ line 12 @ time 90
+# Main - thread @ line 16 @ time 100
+run
+# Main - thread @ line 17 @ time 200
+# 
+# Test 2
+run
+# Main - thread @ line 26 @ time 210
+# Main - thread @ line 27 @ time 230
+# Fork - thread 2 @ line 31 @ time 240
+# Main - thread @ line 34 @ time 250
+# Fork - thread 1 @ line 30 @ time 290
+run
+# Main - thread @ line 35 @ time 350
+# 
+# Test 3
+# Main - thread @ line 44 @ time 360
+# Main - thread @ line 45 @ time 380
+# Main - thread @ line 52 @ time 390
+# Fork - thread 2 @ line 49 @ time 390
+run
+# Fork - thread 1 @ line 48 @ time 440
+# Main - thread @ line 53 @ time 490
+# 
+# Test 4
+# Main - thread @ line 62 @ time 500
+run
+# Main - thread @ line 63 @ time 520
+# Fork - thread 2 @ line 67 @ time 530
+# Main - thread @ line 71 @ time 540
+run
+# Main - thread @ line 72 @ time 640
+# 
+# Test 5
+# Main - thread @ line 81 @ time 650
+# Main - thread @ line 82 @ time 670
+# Fork - thread 2 @ line 86 @ time 680
+# Main - thread @ line 97 @ time 690
+# Fork2 - thread 3 @ line 91 @ time 690
+run
+# Fork2 - thread 3 @ line 92 @ time 710
+# Fork - thread 1 @ line 85 @ time 730
+# Fork2 - thread 3 @ line 93 @ time 790
+run
+# Main - thread @ line 101 @ time 890
+# 
+# Task 1
+# Main - thread @ line 109 @ time 900
+run
+# Main - thread @ line 110 @ time 920
+# Fork - thread 1 @ line 113 @ time 980
+# Main - thread @ line 116 @ time 990
+run
+# Main - thread @ line 117 @ time 1090
+# 
+# Task 2
+# Main - thread @ line 125 @ time 1100
+run
+# Main - thread @ line 126 @ time 1120
+# Fork - thread 2 @ line 130 @ time 1130
+# Fork - thread 1 @ line 129 @ time 1180
+# Fork2 - thread 3 @ line 135 @ time 1190
+run
+# Fork2 - thread 3 @ line 136 @ time 1210
+# Fork2 - thread 3 @ line 137 @ time 1290
+# Main - thread @ line 141 @ time 1300
+run
+# Main - thread @ line 145 @ time 1400
+run
+run
+run
+

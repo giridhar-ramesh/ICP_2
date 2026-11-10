@@ -1,0 +1,230 @@
+# Compile of lab_04.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 165 ns Started: 145 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+run
+# Compile of lab_04.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 165 ns Started: 145 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+run
+# Compile of lab_04.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+run
+# Compile of lab_04.sv was successful.
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+run
+# Compile of lab_04.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+run
+run
+run
+# Compile of lab_04.sv was successful.
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 58
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 165 ns Started: 145 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 175 ns Started: 155 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 185 ns Started: 165 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 195 ns Started: 175 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# Compile of lab_04.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 125 ns  Scope: lab_04.assert_task3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 60
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+run
+# Compile of lab_04.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.lab_04(fast)
+run
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 21
+# ** Warning: enable_1 and enable_2 are both 0!
+#    Time: 55 ns Started: 55 ns  Scope: lab_04.assert_2 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 30
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 35
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: lab_04.assert_4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 39
+run
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 85 ns  Scope: lab_04.assert_6 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 54
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 125 ns  Scope: lab_04.assert_task3 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 60
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_5 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 49
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 105 ns  Scope: lab_04.assert_Task4 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 62
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 135 ns  Scope: lab_04.assert_Task1 File: H:/Downloads/Lab 1/Lab 1/lab_04.sv Line: 56
+run
+

@@ -1,0 +1,6 @@
+export CDS_XLM=/usr/local-eit/cad2/cadence/xcel22
+export PATH="${PATH}:${CDS_XLM}/bin"
+export PATH="${PATH}:${CDS_XLM}/tools/bin"
+export CDS_LIC_FILE=5280@auctor.eit.lth.se
+export CDS_AUTO_64BIT=ALL
+export CDS_LOAD_ENV=CSF

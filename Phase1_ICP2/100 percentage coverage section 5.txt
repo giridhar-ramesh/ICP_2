@@ -1,0 +1,460 @@
+vlog -work work -sv +incdir+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/clock_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/reset_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/parallel_data_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/clock_uvc/clock_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/reset_uvc/reset_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/parallel_data_uvc/parallel_data_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/dut/serial_to_parallel.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/tb_pkg.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/tb_top.sv
+# QuestaSim-64 vlog 2022.1 Compiler 2022.01 Jan 29 2022
+# Start time: 12:06:37 on Sep 29,2026
+# vlog -reportprogress 300 -work work -sv "+incdir+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/clock_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/reset_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/parallel_data_uvc+H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb" H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/clock_uvc/clock_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/reset_uvc/reset_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/parallel_data_uvc/parallel_data_if.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/dut/serial_to_parallel.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/tb_pkg.sv H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/tb_top.sv 
+# -- Compiling interface clock_if
+# -- Compiling interface reset_if
+# -- Compiling interface serial_data_if
+# -- Compiling interface parallel_data_if
+# -- Compiling module serial_to_parallel
+# -- Compiling package tb_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/tb_pkg.sv(24): Using implicit +incdir+C:/Program Files/questasim64_2022.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling module tb_top
+# -- Importing package tb_pkg
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:06:38 on Sep 29,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_top
+# vsim -voptargs="+acc" work.tb_top 
+# Start time: 12:06:54 on Sep 29,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.clock_if(fast)
+# Loading work.reset_if(fast)
+# Loading work.serial_data_if(fast)
+# Loading work.parallel_data_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.tb_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tb_top(fast)
+# Loading work.clock_if(fast__2)
+# Loading work.reset_if(fast__2)
+# Loading work.serial_data_if(fast__2)
+# Loading work.parallel_data_if(fast__2)
+# Loading work.serial_to_parallel(fast)
+# Loading C:/Program Files/questasim64_2022.1/uvm-1.1d\win64\uvm_dpi.dll
+add wave sim:/tb_top/*
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test basic_test...
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/clock_uvc/clock_agent.svh(55) @ 0: uvm_test_top.m_tb_env.m_clock_agent [m_clock_agent] CLOCK agent is alive....
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/parallel_data_uvc/parallel_data_agent.svh(70) @ 0: uvm_test_top.m_tb_env.m_parallel_data_agent [m_parallel_data_agent] PARALLEL_DATA agent is alive....
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/reset_uvc/reset_agent.svh(68) @ 0: uvm_test_top.m_tb_env.m_reset_agent [m_reset_agent] RESET agent is alive....
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_agent.svh(70) @ 0: uvm_test_top.m_tb_env.m_serial_data_agent [m_serial_data_agent] SERIAL_DATA agent is alive....
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/base_test.svh(60) @ 0: uvm_test_top [uvm_test_top] UVM TB Starts UVM test; 'uvm_test_top'
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/clock_uvc/clock_driver.svh(38) @ 0: uvm_test_top.m_tb_env.m_clock_agent.clock_driver [clock_driver] Start clock with period 10
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 40: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 50: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 60: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 70: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 80: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 90: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 100: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 110: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 120: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 130: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=231
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 130: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=231
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 160: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 170: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 180: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 190: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 200: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 210: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 220: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 230: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 240: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 250: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=127
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 250: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=127
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 380: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 390: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 400: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 410: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 420: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 430: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 440: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 450: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 460: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 470: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=125
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 470: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 470: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=125
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 480: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 490: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 500: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 510: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 520: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 530: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 540: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 550: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 560: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=227
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 560: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=227
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 620: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 630: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 640: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 650: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 660: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 670: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 680: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 690: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 700: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 710: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=128
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 710: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 710: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=128
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 720: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 730: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 740: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 750: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 760: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 770: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 780: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 790: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 800: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=11
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 800: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=11
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 810: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 820: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 830: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 840: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 850: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 860: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 870: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 880: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 890: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 900: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=183
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 900: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 900: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=183
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 910: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 920: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 930: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 940: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 950: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 960: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 970: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 980: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 990: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=199
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1130: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1140: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1150: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1160: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1170: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1180: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1190: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1200: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1250: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1260: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1270: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1280: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1290: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1300: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1310: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1320: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 1330: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 1340: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=60
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 1340: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=60
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1380: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1390: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1400: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1410: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1420: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1430: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1440: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1450: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 1460: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 1470: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=255
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 1470: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=255
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1490: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1500: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1510: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1520: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1530: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1540: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1550: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1560: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1630: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1640: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1650: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1660: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1670: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1680: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1690: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1700: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 1710: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 1720: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=255
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1720: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 1720: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=255
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1730: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1740: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1750: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1760: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1770: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1780: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1790: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 1800: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 1810: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=217
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1900: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1910: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1920: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1930: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1940: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1950: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1960: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 1970: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 1980: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 1990: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=27
+# UVM_ERROR H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(197) @ 1990: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Data mismatch!!! Received data=11011001(217) Expected data=00011011(27)
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2000: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2010: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2020: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2030: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2040: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2050: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2060: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2070: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 2080: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 2090: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=10
+# UVM_ERROR H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(197) @ 2090: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Data mismatch!!! Received data=00011011(27) Expected data=00001010(10)
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2140: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2150: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2160: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2240: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2250: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2260: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2270: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2280: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2290: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2300: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2310: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 2320: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 2330: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=195
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 2330: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=195
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2450: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2460: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2470: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2480: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2490: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2500: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2510: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2520: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 2530: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 2540: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=254
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2540: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 2540: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=254
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2550: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2560: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2570: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2580: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2590: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2600: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2610: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 2620: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 2630: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=176
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 2630: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=176
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2680: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2690: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2700: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2710: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2720: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2730: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2740: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2750: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 2760: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 2770: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=195
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 2770: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=195
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2810: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2820: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2830: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2840: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2850: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2860: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2870: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2880: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 2890: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 2900: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 2900: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2970: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2980: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 2990: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3000: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3010: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3020: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3030: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3040: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3050: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3060: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=223
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3060: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=223
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3150: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3160: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3170: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3180: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3190: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3200: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3210: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3220: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3230: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3240: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3240: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3270: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3280: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3290: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3300: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3310: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3320: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3330: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3340: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3350: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3360: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=250
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3360: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=250
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3450: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3460: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3470: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3480: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3490: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3500: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3510: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3520: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3530: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3540: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=64
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3540: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=64
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3580: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3590: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3600: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3610: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3620: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3630: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3640: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3650: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3660: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3670: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=212
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3670: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=212
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3740: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3750: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3760: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3770: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3780: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3790: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3800: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3810: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3820: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3830: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=63
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3830: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3830: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=63
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3840: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3850: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3860: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3870: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3880: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3890: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3900: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 3910: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 3920: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=224
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 3920: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=224
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3960: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3970: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3980: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 3990: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4000: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4010: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4020: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4030: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 4040: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 4050: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=223
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4050: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 4050: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=223
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4060: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4070: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4080: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4090: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4100: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4110: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4120: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 4130: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 4140: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=195
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 4140: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=195
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4150: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4160: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4170: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4180: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4190: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4200: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4210: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4220: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 4230: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 4240: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=156
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 4240: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=156
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4270: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4280: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4290: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4300: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4310: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4320: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4330: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4340: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 4350: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 4360: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=160
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 4360: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=160
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4390: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=0 value=0
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4400: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=1 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4410: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=2 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4420: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=3 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4430: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=4 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4440: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=5 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4450: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=6 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(104) @ 4460: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=7 value=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(111) @ 4470: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Received bitno=8 parity=1
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/uvc/serial_data_uvc/serial_data_monitor.svh(117) @ 4480: uvm_test_top.m_tb_env.m_serial_data_agent.serial_data_monitor [serial_data_monitor] Predict data output value=254
+# UVM_INFO H:/Downloads/Lab3_4_copy/Lab3_4_completed/serial_to_parallel/tb/scoreboard.svh(200) @ 4480: uvm_test_top.m_tb_env.m_scoreboard [m_scoreboard] Received complete 8 data bits as expected. Data=254
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 4535: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# *****************************************************
+# Number of checked data 29
+# *****************************************************
+# FUNCTIONAL COVERAGE (100.0%) PASSED....
+# *****************************************************
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  366
+# UVM_WARNING :    0
+# UVM_ERROR :    2
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [clock_driver]     1
+# [m_clock_agent]     1
+# [m_parallel_data_agent]     1
+# [m_reset_agent]     1
+# [m_scoreboard]    29
+# [m_serial_data_agent]     1
+# [serial_data_monitor]   329
+# [uvm_test_top]     1
+# ** Note: $finish    : C:/Program Files/questasim64_2022.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 4535 ns  Iteration: 54  Instance: /tb_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/Program Files/questasim64_2022.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+

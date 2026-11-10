@@ -1,0 +1,66 @@
+# Loading work.simple_alu_tb(fast)
+run
+# *****************************************************
+# Starting Tests
+# *****************************************************
+# 0 reset():            Starting delay=0 length=2
+# 0 reset():            Reset activated
+# 15 reset():            Reset released
+# Randomization done! :D
+# 15 do_math:   Opcode:MUL     First number=236 Second Value=18
+# Randomization done! :D
+# 35 do_math:   Opcode:ADD     First number=20 Second Value=216
+# 55 reset():            Starting delay=10 length=2
+run
+# 155 reset():            Reset activated
+# 175 reset():            Reset released
+# Output reset
+# *****************************************************
+# Tests Finished!
+# *****************************************************
+# ** Note: $stop    : //stu.net.lth.se/gi4330ra-s/Downloads/Lab 2 (1)/test_top.sv(196)
+#    Time: 175 ns  Iteration: 1  Instance: /simple_alu_tb
+# Break at //stu.net.lth.se/gi4330ra-s/Downloads/Lab 2 (1)/test_top.sv line 196
+# Compile of test_top.sv was successful with warnings.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: //stu.net.lth.se/gi4330ra-s/Downloads/Lab 2 (1)/test_top.sv(160): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb_pkg(fast)
+# Loading work.simple_alu_sv_unit(fast)
+# Loading work.test_top_sv_unit(fast)
+# Loading work.simple_alu_tb(fast)
+run
+# *****************************************************
+# Starting Tests
+# *****************************************************
+# 0 reset():            Starting delay=0 length=2
+# 0 reset():            Reset activated
+# 15 reset():            Reset released
+# Randomization done! :D
+# 15 do_math:   Opcode:MUL     First number=236 Second Value=18
+# Randomization done! :D
+# 35 do_math:   Opcode:ADD     First number=20 Second Value=216
+# Randomization done! :D
+# 55 do_math:   Opcode:DIV     First number=17 Second Value=195
+# Randomization done! :D
+# 75 do_math:   Opcode:SUB     First number=93 Second Value=186
+# ** Warning: (vsim-8630) Infinity results from division operation.
+#    Time: 75 ns  Iteration: 2  Process: /simple_alu_tb/<anonymous> File: //stu.net.lth.se/gi4330ra-s/Downloads/Lab 2 (1)/simple_alu.sv Line: 56
+# Randomization done! :D
+# 95 do_math:   Opcode:SUB     First number=114 Second Value=96
+run
+# 115 reset():            Starting delay=10 length=2
+run
+# 215 reset():            Reset activated
+# 235 reset():            Reset released
+# Output reset
+# *****************************************************
+# Tests Finished!
+# *****************************************************
+# ** Note: $stop    : //stu.net.lth.se/gi4330ra-s/Downloads/Lab 2 (1)/test_top.sv(196)
+#    Time: 235 ns  Iteration: 1  Instance: /simple_alu_tb
+# Break at //stu.net.lth.se/gi4330ra-s/Downloads/Lab 2 (1)/test_top.sv line 196
+

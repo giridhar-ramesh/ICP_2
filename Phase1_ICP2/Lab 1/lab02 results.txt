@@ -1,0 +1,212 @@
+Compile of lab_02.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.lab_02(fast)
+run
+# test 1 : '{non_random:x, src:c, dest:e, payload:'{5b, fa, b5, 37, e8, 0d, 13, a7, b3}}
+# test 1 : '{non_random:x, src:8, dest:c, payload:'{51, 51, b2, 8a, c9, 16}}
+# test 1 : '{non_random:x, src:2, dest:5, payload:'{41, 17, 75, 97, ee, 12, 53, 2e, b8, f2, b2, 26, 61}}
+# test 1 : '{non_random:x, src:2, dest:6, payload:'{f5, ca, 1d, 94, 5d, b0, 5b}}
+# test 1 : '{non_random:x, src:4, dest:7, payload:'{68, 63, 89, d8, 8f, 9f, 71}}
+# test 1 : '{non_random:x, src:6, dest:f, payload:'{24, 58, 7e, d5, 14, d1, 31, 9e, 62, 8d, 46, 75}}
+# test 1 : '{non_random:x, src:6, dest:d, payload:'{82, d7, d8, 3b, 03, 71, 0c, 1b, 81, 85, 5c, 69}}
+# test 1 : '{non_random:x, src:a, dest:b, payload:'{73, c9, 80, 70, 27, fc, 86, a4, 4f, a6, d3, 5e, bf}}
+# 
+# test 2 : '{non_random:x, src:1, dest:x, payload:'{31, 5a, 1d, 45}}
+# test 2 : '{non_random:x, src:0, dest:x, payload:'{11, dc, 09, 0e, 66}}
+# test 2 : '{non_random:x, src:5, dest:x, payload:'{78, 4f, 46, 74, 52, 9e}}
+# test 2 : '{non_random:x, src:2, dest:x, payload:'{de, e4}}
+# test 2 : '{non_random:x, src:7, dest:x, payload:'{cb, 92, 34, 8f, b1, 96, 95, e6, 66, c9, 7d, bf}}
+# test 2 : '{non_random:x, src:3, dest:x, payload:'{3d, e9, 94, 26, dc, b3, b9, a6}}
+# test 2 : '{non_random:x, src:9, dest:x, payload:'{e2, 82, 34, 9b, 16, e5, 31, 43, c2}}
+# test 2 : '{non_random:x, src:a, dest:x, payload:'{cf, a5, fe, 2a, 70, e3, f7, 3a, 7f, 3c, f7, 37, 64, 1b}}
+# 
+# test 3 : '{addr:53a9, data:d5989ac0}
+# test 3 : '{addr:b1a3, data:be3599ec}
+# test 3 : '{addr:18c3, data:ccc24743}
+# test 3 : '{addr:1a8b, data:f5cf1424}
+# test 3 : '{addr:3ec1, data:cc8290b2}
+# test 3 : '{addr:2b93, data:ba188f0c}
+# test 3 : '{addr:c9c4, data:e3f1b08e}
+# test 3 : '{addr:79ea, data:dc7353d2}
+# 
+#  '{addr:3901, data:886d848d}
+#  '{addr:5001, data:57df64c7}
+#  '{addr:d601, data:5e546ceb}
+#  '{addr:0701, data:cdc3d973}
+# '{addr:0101, data:4910ffff}
+# '{addr:7b01, data:5452ffff}
+# '{addr:7501, data:4b05ffff}
+# '{addr:a901, data:123affff}
+# 
+# '{d_normal:6, d_cylic:5}
+# '{d_normal:2, d_cylic:4}
+# '{d_normal:3, d_cylic:7}
+# '{d_normal:6, d_cylic:6}
+# '{d_normal:6, d_cylic:1}
+# '{d_normal:6, d_cylic:0}
+# '{d_normal:3, d_cylic:3}
+# '{d_normal:2, d_cylic:2}
+# '{d_normal:5, d_cylic:5}
+# '{d_normal:3, d_cylic:0}
+# '{d_normal:6, d_cylic:6}
+# '{d_normal:3, d_cylic:4}
+# '{d_normal:4, d_cylic:3}
+# '{d_normal:4, d_cylic:1}
+# '{d_normal:5, d_cylic:7}
+# '{d_normal:2, d_cylic:2}
+# 
+# Pre randomiztion data = x
+# Post randomiztion data = 0
+# Pre randomiztion data = 0
+# Post randomiztion data = 2
+# 
+
+
+------------------------------------------------------------------------------------
+# Loading work.lab_02(fast)
+run
+# test 1 : '{non_random:x, src:c, dest:e, payload:'{5b, fa, b5, 37, e8}}
+# test 1 : '{non_random:x, src:8, dest:c, payload:'{51, 51, b2, 8a, c9}}
+# test 1 : '{non_random:x, src:2, dest:5, payload:'{41, 17, 75, 97, ee}}
+# test 1 : '{non_random:x, src:2, dest:6, payload:'{f5, ca, 1d, 94, 5d}}
+# test 1 : '{non_random:x, src:4, dest:7, payload:'{68, 63, 89, d8, 8f}}
+# test 1 : '{non_random:x, src:6, dest:f, payload:'{24, 58, 7e, d5, 14}}
+# test 1 : '{non_random:x, src:6, dest:d, payload:'{82, d7, d8, 3b, 03}}
+# test 1 : '{non_random:x, src:a, dest:b, payload:'{73, c9, 80, 70, 27}}
+# 
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# H:/Downloads/Lab 1/Lab 1/lab_02.sv(75): randomize() failed due to conflicts between the following constraints:
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(14): payload_size_conflict { (payload.size == 5); }
+# 	H:/Downloads/Lab 1/Lab 1/lab_02.sv(21): payload_size { (payload.size >= 15); }
+# Where:
+# 	payload.size = 5 /* random  */
+# ** Note: (vsim-7130) Enabling enhanced debug (-solvefaildebug=2) may generate a more descriptive constraint contradiction report and -solvefaildebug testcase.
+# ** Note: (vsim-7106) Use vsim option '-solvefailtestcase[=filename]' to generate a simplified testcase that will reproduce the failure.
+# ** Warning: (vsim-7084) No solutions exist which satisfy the specified constraints; randomize() failed.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /lab_02/#INITIAL#146(#ublk#120029746#146) File: H:/Downloads/Lab 1/Lab 1/lab_02.sv Line: 75
+# test 2 : '{non_random:x, src:x, dest:x, payload:'{}}
+# 
+# test 3 : '{addr:5301, data:d598ffff}
+# test 3 : '{addr:b101, data:be35ffff}
+# test 3 : '{addr:1801, data:ccc2ffff}
+# test 3 : '{addr:1a01, data:f5cfffff}
+# test 3 : '{addr:3e01, data:cc82ffff}
+# test 3 : '{addr:2b01, data:ba18ffff}
+# test 3 : '{addr:c901, data:e3f1ffff}
+# test 3 : '{addr:7901, data:dc73ffff}
+# 
+#  '{addr:3901, data:886d848d}
+#  '{addr:5001, data:57df64c7}
+#  '{addr:d601, data:5e546ceb}
+#  '{addr:0701, data:cdc3d973}
+# '{addr:0101, data:4910ffff}
+# '{addr:7b01, data:5452ffff}
+# '{addr:7501, data:4b05ffff}
+# '{addr:a901, data:123affff}
+# 
+# '{d_normal:6, d_cylic:5}
+# '{d_normal:2, d_cylic:4}
+# '{d_normal:3, d_cylic:7}
+# '{d_normal:6, d_cylic:6}
+# '{d_normal:6, d_cylic:1}
+# '{d_normal:6, d_cylic:0}
+# '{d_normal:3, d_cylic:3}
+# '{d_normal:2, d_cylic:2}
+# '{d_normal:5, d_cylic:5}
+# '{d_normal:3, d_cylic:0}
+# '{d_normal:6, d_cylic:6}
+# '{d_normal:3, d_cylic:4}
+# '{d_normal:4, d_cylic:3}
+# '{d_normal:4, d_cylic:1}
+# '{d_normal:5, d_cylic:7}
+# '{d_normal:2, d_cylic:2}
+# 
+# Pre randomiztion data = x
+# Post randomiztion data = 0
+# Pre randomiztion data = 0
+# Post randomiztion data = 2
+# 
+# Compile of lab_02.sv was successful.
+run
